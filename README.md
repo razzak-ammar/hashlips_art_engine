@@ -2,6 +2,16 @@
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.png)
 
+## Notes 
+To run on Apple Silicon, the follow changes were made:
+- Updated `canvas` to 2.11.2
+
+Then on the developer side, the following should be considered. *(This is based off of my environment, so other variations are still possible)*
+- Python Version `3.11.3` (I tried on 3.12 and it wasn't working)
+- Node Version `16.9.0`
+- Installed the following packages via Brew: `pkg-config cairo pango libpng jpeg giflib librsvg`
+`
+
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
 To find out more please visit:
